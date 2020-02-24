@@ -8,6 +8,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.Equals(1, 1);
         }
     }
 }
