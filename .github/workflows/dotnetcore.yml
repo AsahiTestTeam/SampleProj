@@ -16,3 +16,6 @@ jobs:
     - name: Build with dotnet
       run: dotnet build --configuration Release
       working-directory: ./ConsoleApp1/ConsoleApp1
+    - name: Test with dotnet
+      run: dotnet test
+      working-directory: ./ConsoleApp1/UnitTestProject1
